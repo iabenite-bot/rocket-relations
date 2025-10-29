@@ -4,6 +4,14 @@ ideal.py
 Ideal rocket equations from part (c) of HW5, computing c* and C_F under
 the assumptions: calorically perfect gas,isentropic flow, steady quasi-1D nozzle expansion,
 and choked throat conditions.
+
+Functions
+---------
+c_star(gamma, R, T0)
+    Computes the ideal characteristic velocity c* [m/s]
+
+c_f(gamma, pe_p0, pa_p0, Ae_Astar)
+    Computes the ideal thrust coefficient C_F (dimensionless)
 """
 
 import numbers
